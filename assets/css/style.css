@@ -181,11 +181,18 @@ nav li + li::before {
 	font-size: 20px;
 }
 
+#contact-form input,
+#contact-form label {
+	float: left;
+	clear: both;
+}
+
 #contact-form input {
 	color: #adb9bf;
 	padding: 5px;
 	width: 100%;
 	max-width: 600px;
+	margin-bottom: 10px;
 }
 
 #contact-form textarea {
@@ -201,6 +208,7 @@ nav li + li::before {
 	border-style: solid;
 	border-color: #4aaaa5;
 	transition: box-shadow .2s ease-out;
+	margin-bottom: 25px;
 }
 
 #contact-form #submit:hover {
